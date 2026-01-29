@@ -13,13 +13,13 @@ int main()
   printf("short   : %zu, unsigned short : %zu\n", sizeof(short),sizeof(unsigned short));
 
     //3. int
-  printf("short   : %zu, unsigned int : %zu\n", sizeof(int),sizeof(usigned int));
+  printf("short   : %zu, unsigned int : %zu\n", sizeof(int),sizeof(unsigned int));
 
     //4. long int
-  printf("short   : %zu, unsigned long int : %zu\n", sizeof(long int),sizeof(usigned long int));
+  printf("short   : %zu, unsigned long int : %zu\n", sizeof(long int),sizeof(unsigned long int));
 
     //5. long long int
-  printf("short   : %zu, unsigned long long int : %zu\n", sizeof(long long int),sizeof(usigned long long int));
+  printf("short   : %zu, unsigned long long int : %zu\n", sizeof(long long int),sizeof(unsigned long long int));
 
     //6. float
   printf("float   : %zu", sizeof(float));
@@ -32,6 +32,7 @@ int main()
 
   return 0;
 }
+
 
 
 
