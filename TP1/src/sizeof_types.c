@@ -4,7 +4,7 @@ int main()
 {
 
   printf("Taille types de base en octets :");
-  printf("================================= : \n);
+  printf("================================= : \n");
     
   //1. char
   printf("char : %zu, unsigned char : %zu\n", sizeof(char), sizeof(unsigned char));
@@ -32,6 +32,7 @@ int main()
 
   return 0;
 }
+
 
 
 
