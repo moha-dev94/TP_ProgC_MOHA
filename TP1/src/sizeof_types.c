@@ -7,24 +7,19 @@ int main()
   printf("================================= : \);
 
   //1. char
-  printf("char   : %zu\, sizeof(char));
-  printf("unsigned char : zu%", sizeof(unsigned char));
+  printf("char : %zu, unsigned char : %zu\n", sizeof(char), sizeof(unsigned char));
 
     //2. short
-  printf("short   : %zu", sizeof(short));
-  printf("unsigned short : zu%", sizeof(unsigned short));
+  printf("short   : %zu", sizeof(short),sizeof(usigned short));
 
     //3. int
-  printf("int   : %zu", sizeof(int));
-  printf("unsigned int : zu%", sizeof(unsigned int));
+  printf("short   : %zu", sizeof(int),sizeof(usigned int));
 
     //4. long int
-  printf("long int   : %zu", sizeof(long int));
-  printf("unsigned long int : zu%", sizeof(unsigned long int));
+  printf("short   : %zu", sizeof(long int),sizeof(usigned long int));
 
     //5. long long int
-  printf("long long int   : %zu", sizeof(long long int));
-  printf("unsigned long long int : zu%", sizeof(unsigned long long int));
+  printf("short   : %zu", sizeof(long long int),sizeof(usigned long long int));
 
     //6. float
   printf("float   : %zu", sizeof(float));
@@ -38,5 +33,6 @@ int main()
   return 0;
   
 }
+
 
 
